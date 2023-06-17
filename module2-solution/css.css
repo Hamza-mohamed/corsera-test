@@ -1,0 +1,108 @@
+/*css file*/
+/* basic style*/
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(127, 108, 108);
+}
+h1{
+    text-align: center;
+    margin: 100px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+}
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+  }
+  p {
+    position: relative;
+    clear: right;
+  }
+    
+  div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  
+.menu_title {
+   border: 2px solid black;
+   float: right;
+   width: 25%;
+   margin: 0px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 125%;
+
+  
+    
+  }
+  
+  
+  #CH{
+    background-color: red;
+
+  }
+  #BE{
+     background-color: whitesmoke;
+  }
+  #SU{
+    background-color:black;
+    color: azure;
+
+  }
+  .content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: auto;
+    overflow: auto;
+}
+.row {
+    width: 90%;
+}
+
+/*desktop version*/
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
